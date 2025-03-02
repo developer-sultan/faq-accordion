@@ -1,4 +1,11 @@
 /* FAQ card */
 .faq-card{
     background-color: var(--neutral-color-body-bg);
+    padding: 1.2rem;
+    max-width: 380px;
+    margin-top: 150px;
+}
+
+picture img{
+    display: block;
 }

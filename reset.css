@@ -30,6 +30,15 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/images/background-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    background-color: var(--neutral-color-body-bg);
 }
 
 img{
