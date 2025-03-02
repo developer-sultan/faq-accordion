@@ -44,6 +44,18 @@
     color: #fff;
     cursor: pointer;
 }
+.faq-card_summary:after{
+    content: "+";
+    width: 32px;
+    height: 32px;
+    background-color: var(--secondary-color);
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .summary_toogle-btn span:nth-child(even){
     display: none;
     background-color: var(--primary-color);
@@ -54,6 +66,7 @@
     padding-bottom: 7px;
     max-height: 0;
     overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
 
 }
 .faq-card-border-none{
