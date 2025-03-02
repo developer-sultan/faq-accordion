@@ -2,22 +2,52 @@
 /* FAQ card */
 .faq-card{
     background-color: var(--neutral-color-body-bg);
-    padding: 1.2rem;
-    max-width: 380px;
+    padding: 1.5rem;
+    width: 90%;
+    max-width: 400px;
     margin-top: 150px;
 }
 
 /* FAQ Header Starts */
 .faq-card_header{
     display: flex;
-    gap: 0.6rem;
+    gap: 1.5rem;
     align-items: center;
+    padding-bottom: 1.2rem;
 }
 .faq-card_header img{
     width: 22px;
 }
 .faq-card_header h1{
     font-family: WorkSans-Bold;
+    font-size: 1.6rem;
+    color: var(--primary-color);
 }
 /* FAQ Header Ends */
 
+/* FAQ Contetns Starts */
+.faq-card_summary{
+    display: flex;
+    justify-content: space-between;
+}
+.faq-card_summary span{
+    font-size: 18px;
+    background-color: var(--secondary-color);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.summary_toogle-btn span:nth-child(even){
+    display: none;
+}
+.faq-card_description{
+    margin-bottom: 1.6rem;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 15px;
+
+}
+/* FAQ Contetns Ends */
