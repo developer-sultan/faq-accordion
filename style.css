@@ -6,6 +6,8 @@
     width: 90%;
     max-width: 400px;
     margin-top: 150px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
 }
 
 /* FAQ Header Starts */
@@ -40,14 +42,21 @@
     justify-content: center;
     align-items: center;
     color: #fff;
+    cursor: pointer;
 }
 .summary_toogle-btn span:nth-child(even){
     display: none;
+    background-color: var(--primary-color);
 }
 .faq-card_description{
     margin-bottom: 1.6rem;
     border-bottom: 2px solid var(--border-color);
-    padding-bottom: 15px;
+    padding-bottom: 7px;
+    max-height: 0;
+    overflow: hidden;
 
+}
+.faq-card-border-none{
+    border: none;
 }
 /* FAQ Contetns Ends */
