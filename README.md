@@ -16,13 +16,12 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
+- A single page accordion application to find frequently asked question
+- 
+### Features
 
-### The challenge
-
-Users should be able to:
+Users would be able to:
 
 - Hide/Show the answer to a question when the question is clicked
 - Navigate the questions and hide/show answers using keyboard navigation alone
@@ -31,7 +30,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### Desktop preview
+![deskptop-preview](./design/desktop-preview.jpg);
+
+#### Mobile preview
+![mobile-preview](./design/mobile-preview.jpg);
+
+#### Active preview
+![acitve-preview](./design/active-status.jpg);
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
