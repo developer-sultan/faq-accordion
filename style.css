@@ -32,6 +32,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
+    outline: none;
 }
 .faq-card_summary span{
     font-size: 18px;
@@ -59,6 +60,7 @@
     position: absolute;
     right: 0;
 }
+
 .active:after{
     content: "-";
     background-color: var(--primary-color);
