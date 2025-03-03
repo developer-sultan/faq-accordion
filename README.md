@@ -59,7 +59,7 @@ In this project I learned js script that able to navigate the accordion by keybo
 
 My code snippets, see below:
 
-```
+```js
 const accordion = document.querySelectorAll(".faq-card_summary");
 
 // Hide/Show answer when question is clicked
