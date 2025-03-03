@@ -31,17 +31,17 @@ Users would be able to:
 ### Screenshot
 
 #### Desktop preview
-![deskptop-preview](./design/desktop-preview.jpg);
+![deskptop-preview](./design/desktop-preview.jpg)
 
 #### Mobile preview
-![mobile-preview](./design/mobile-preview.jpg);
+![mobile-preview](./design/mobile-preview.jpg)
 
 #### Active preview
-![acitve-preview](./design/active-status.jpg);
+![acitve-preview](./design/active-status.jpg)
 
 ### Links
 
-- Solution URL: [Get the codes](https://github.com/developer-sultan/faq-accordion);
+- Solution URL: [Get the codes](https://github.com/developer-sultan/faq-accordion)
 - Live Site URL: [Demo](https://faq-accordion-ten-ashy.vercel.app/);
 
 ## My process
@@ -51,13 +51,7 @@ Users would be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
